@@ -5,3 +5,4 @@ pandas==2.2.1
 scikit-learn==1.4.2
 pydantic==2.7.0
 joblib==1.4.2
+python-dotenv==1.2.1
