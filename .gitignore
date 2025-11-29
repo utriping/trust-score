@@ -1,0 +1,59 @@
+# ----------------------------------------
+# Node.js
+# ----------------------------------------
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
+backend/package-lock.json
+
+# Environment Variables
+.env
+*.env
+backend/.env
+ml_engine/.env
+
+# Logs
+*.log
+logs/
+backend/logs/
+ml_engine/logs/
+
+# ----------------------------------------
+# Python / ML Engine
+# ----------------------------------------
+ml_engine/__pycache__/
+ml_engine/venv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI / Uvicorn files
+uvicorn.log
+
+# Model files (optional)
+model.pkl
+*.pkl
+
+# ----------------------------------------
+# OS / Editor files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.idea/
+
+# ----------------------------------------
+# MySQL Dumps (Optional)
+# ----------------------------------------
+*.sql
+*.dump
+
+# ----------------------------------------
+# Build / Cache folders
+# ----------------------------------------
+dist/
+build/
+.cache/
