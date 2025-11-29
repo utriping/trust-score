@@ -1,26 +1,46 @@
-# ----------------------------------------
-# Node.js
-# ----------------------------------------
+# ========================================
+# Node.js Backend
+# ========================================
 backend/node_modules/
 backend/npm-debug.log
 backend/yarn-error.log
 backend/package-lock.json
+backend/dist/
+backend/build/
+backend/logs/
+backend/.env
 
-# Environment Variables
+# Environment Variables (Global)
 .env
 *.env
-backend/.env
 ml_engine/.env
+frontend/.env
 
-# Logs
+# Logs (Global)
 *.log
 logs/
-backend/logs/
 ml_engine/logs/
 
-# ----------------------------------------
+# ========================================
+# React Frontend
+# ========================================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# React Local Files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ========================================
 # Python / ML Engine
-# ----------------------------------------
+# ========================================
 ml_engine/__pycache__/
 ml_engine/venv/
 venv/
@@ -28,32 +48,32 @@ venv/
 *.pyo
 *.pyd
 
-# FastAPI / Uvicorn files
+# FastAPI / Uvicorn logs
 uvicorn.log
 
-# Model files (optional)
+# Model files
 model.pkl
 *.pkl
 
-# ----------------------------------------
+# ========================================
 # OS / Editor files
-# ----------------------------------------
+# ========================================
 .DS_Store
 Thumbs.db
 
-# VSCode
+# VSCode / JetBrains
 .vscode/
 .idea/
 
-# ----------------------------------------
-# MySQL Dumps (Optional)
-# ----------------------------------------
+# ========================================
+# MySQL Dumps
+# ========================================
 *.sql
 *.dump
 
-# ----------------------------------------
-# Build / Cache folders
-# ----------------------------------------
+# ========================================
+# Build / Cache folders (Global)
+# ========================================
 dist/
 build/
 .cache/
