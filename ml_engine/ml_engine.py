@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os 
 load_dotenv()
 app = FastAPI()
-port = os.load("ML_PORT")
+port = os.getenv("ML_PORT")
 
 class TxData(BaseModel):
     amounts: list

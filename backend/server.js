@@ -229,7 +229,7 @@ app.post("/logout", async (req, res) => {
    Routes: Transactions & TrustScore (protected)
    ------------------- */
 
-/**
+/*
  * GET /transactions/:userId
  * Public for demo but will fetch transaction list
  */
